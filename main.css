@@ -1,0 +1,597 @@
+.MYnavtab .MYmenu ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.MYnavtab .MYultab li{
+  float: right;
+}
+
+.MYnavtab li a, .MYdropbtn {
+  display: inline-block;
+  color: white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+
+.MYnavtab li a:hover, .MYdropdown:hover .MYdropbtn{
+  background-color: red;
+}
+
+.MYnavtab .MYdropdown-content{
+  display: none;
+  position:absolute;
+  background-color:#f9f9f9;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index:1;
+}
+
+.MYnavtab .MYdropdown-content a{
+  color: black;
+  padding:12px 10px;
+  text-decoration : none;
+  display:block;
+  text-align: left;
+}
+
+.MYnavtab .MYdropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.MYnavtab .MYdropdown:hover .MYdropdown-content{
+  display: block;
+}
+.MYwebLogo{
+  font-size: 20px;
+  text-decoration : none;
+  display:block;
+  color:white;
+  position: absolute; /*this will position your text/title*/
+  left: 20px;
+  top: 10px;
+}
+.MYmenu{
+  /*margin: 100px;*/
+    position: fixed;
+    left: 0px;
+    right:0px;
+    top:0px;
+}
+
+.box{
+  border:none;
+  border-bottom: 2px solid #06e3b7;
+}
+
+/*what is VBooks?*/
+.description{
+  /*add a border to the top*/
+
+}
+.description h2{
+  position: absolute;
+  top: 21%;
+}
+.bodDesc p{
+  position: absolute;
+  top:25%;
+  width: 35%;
+}
+
+
+/*this will be for the footer*/
+
+footer {
+  width: 100%;
+  background-color: #222;
+  /*margin-top:100px;*/
+  padding: 60px 0px;
+  position: fixed;
+  /*text-align: center;*/
+  bottom: 0px;
+  top: 85%;
+  left: 0px;
+  right: 0px;
+}
+
+
+footer nav{
+  text-align: center;
+}
+footer nav ul{
+
+}
+footer nav ul li{
+  display:inline-block;
+  margin-left: 100px;
+  /*list-style: none;*/
+}
+.test{
+  /*background: #fff;*/
+  position: relative;
+  bottom:30px;
+}
+footer nav ul li a{
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 13px;
+  color:#ffff3f;
+}
+.copyRight{
+  float: left;
+}
+.footTab{
+  background:#222;
+}
+
+/*------main body login details*/
+
+
+
+/*this is for the search bar*/
+.searchBox{
+  position: absolute;
+  top: 75px;
+  right: 33%;
+
+}
+.searchBar{
+margin-top: 5%;
+font-size: 20px;
+}
+.dropDownBar{
+  background: black;
+  width: 20%;
+position: relative;
+top: -35px;
+left: 38%;
+}
+
+.posSearch{
+position: relative;
+
+}
+
+.MAINnavtab{
+
+  background-color: white;
+  box-shadow: none;
+}
+/*this is for the main page navigation bar*/
+.MAINnavtab .MAINmenu ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+
+
+}
+
+.MAINnavtab .MAINultab li{
+  float: right;
+}
+
+.MAINnavtab li a, .MAINdropbtn {
+  display: inline-block;
+  color: white;
+  text-align:center;
+  padding:0px 20px;
+  text-decoration: none;
+}
+
+.MAINnavtab li a:hover, .MAINdropdown:hover .MAINdropbtn{
+  background-color: red;
+}
+
+.MAINnavtab .MAINdropdown-content{
+  display: none;
+  position:absolute;
+  background-color:#f9f9f9;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index:1;
+}
+
+.MAINnavtab .MAINdropdown-content a{
+  color: black;
+  padding:12px 10px;
+  text-decoration : none;
+  display:block;
+  text-align: left;
+}
+
+.MAINnavtab .MAINdropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.MAINnavtab .MAINdropdown:hover .MAINdropdown-content{
+  display: block;
+}
+.MAINwebLogo{
+  font-size: 20px;
+  text-decoration : none;
+  display:block;
+  color:white;
+  position: absolute; /*this will position your text/title*/
+  left: 20px;
+  top: 0px;
+}
+.MAINmenu{
+  /*margin: 100px;*/
+    position: fixed;
+    left: 0px;
+    right:0px;
+    top:0px;
+}
+
+.row{
+
+}
+/*this is the pagination postion colour , etc,*/
+.paginationCotroller{
+text-align: center;
+padding-bottom: 1%;
+position:relative;
+bottom: -15px;
+left: 0%;
+background: grey;
+width: 100%;
+}
+li.myActive{
+ background-color: #B1B1B1;
+}
+li.myActive a {
+ color: white;
+}
+.catTitle{
+  font-weight: bold;
+}
+.recTitle h1{
+  font-weight: bold;
+  position: absolute;
+  top: 19%;
+  right: 0%;
+}
+.controller{
+  position: absolute;
+  top: 10%;
+}
+.rowController{
+width: 50%;
+position: relative;
+
+}
+.myRow{
+  width: 30%;
+  position: absolute;
+  right: 0%;
+}
+
+/***this is for the contaccts page***/
+.contact{
+  background: grey;
+  padding: 1%;
+  border-radius: 10px;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+
+}
+
+.contact h2{/*make the background dark grey*/
+  position: relative;
+  border-bottom: solid 2px;
+  left: 0%;
+  text-align:center;
+}
+.myOrder li{
+
+position: relative;
+right: 5%;
+}
+.layout{
+  background: green;
+}
+.getInTouch p{
+
+width: 80%;
+}
+
+
+
+
+/*
+this will be the styling of the
+login box
+*/
+/*design for the inbox in login*/
+p{
+  font-weight: lighter;
+  font-family:Helvetica;
+}
+.pos{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+
+
+  border: solid 1px #333333;
+}
+.heading{
+  background: black;
+  color: #FFFFFF;
+  padding:3px;
+}
+.myForm{
+  margin: 30px;
+}
+.back{
+    background: #616060;
+    text-align: center;
+    position: relative;
+    left: -30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 117%;
+    z-index: 0;
+}
+.error{
+  text-align: center;
+  font-size: 11px;
+  color: #fc6262;
+  margin-top:10px;
+  position: absolute;
+  left: 15%
+
+}
+.testing{
+
+  position: relative;
+  z-index: 2;
+  left:90%;
+  bottom: -25px;
+}
+
+.accPos{
+  text-decoration: none;
+  position: relative;
+  right: 40px;
+  top: 20px;
+  font-size: 1;
+}
+
+.accPos a{
+  text-decoration: none;
+  color: blue;/*change the colour of the link*/
+  text-align: center;
+  font-size: 15px;
+}
+.description h2{
+    border-radius: 5px;
+margin-left:40px;
+background: grey;
+padding: 5px;
+color: white;
+}
+.bodDesc p{
+  border-radius: 25px;
+  padding: 10px;
+  background: grey;
+  color: white;
+}
+
+
+/******SetUp css*****/
+/*
+bug report
+currently there's a bug with the drop down menu
+found that if you comment out everything from setUp.cc
+the dropdown menu works!
+otherwise it wont.
+
+Specultions, has to do something with positions
+possible solustions
+1) z-index,
+2)re-position the co-ordinates
+*/
+@font-face {
+    font-family: openSans;
+    src: url(OpenSans-Regular.tff);
+    font-weight: bold;
+}
+body{
+  font-family: sans-serif;
+}
+
+.dec{
+  background: black;
+  padding:100%;
+}
+.text{
+  position: relative;
+  top: 20%;
+}
+
+.content{/*
+  position: absolute;
+  top: 10%*/
+  margin-top: 5%;
+}
+
+.spliiter{
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 15%;
+}
+
+.setUpMain{
+  background: White;
+  position: absolute;
+  float: right;
+  right: 50%;
+  top: 10%;
+  /*float: right;*/
+  border-left: 1px solid black;
+  margin-left: 50%;
+  margin-right: 10%;
+}
+.SubmitBtn{
+  font-size: 1rem;
+outline: 0;
+}
+.SubmitBtn:focus{
+  background-color: #1d7d74;
+}
+
+.SubmitBtn{
+  text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+/*top: 10%;*/
+}
+/*arranging the */
+.surname{
+position: absolute;
+top: 90px;
+left: 120%;
+}
+.address2{
+  position: absolute;
+  top: 291px;
+  left: 120%;
+}
+.showCase{
+  overflow: auto;
+  border-radius: 1em;
+  background: red;
+  background: -webkit-linear-gradient(0deg, #873600, #D35400);
+  width:200px;
+  height: 250px;
+  position: absolute;
+  right: 30%;
+  bottom: 55%;
+
+}
+
+.explain{
+overflow: auto;
+border-radius: 1em;
+background: red;
+background: -webkit-linear-gradient(0deg, #873600, #D35400);
+width: 300px;
+height: 150px;
+position: absolute;
+bottom: 20%;
+right: 30%;
+
+
+}
+
+
+
+
+
+/*this is the error in the setup if you have typed in nothing
+or if account creation was a success*/
+/*
+<div class="errorM">
+  <ul class="listError">
+    <?php
+    echo "<li>". $eUserName ."</li>";
+    echo "<li>". $ePassword ."</li>";
+    echo "<li>". $eFirst ."</li>";
+    echo "<li>". $eSur ."</li>";
+    echo "<li>". $eMail ."</li>";
+    echo "<li>". $eAddress ."</li>";
+    echo "<li>". $eCity ."</li>";
+     ?>
+  </ul>
+
+</div>
+*/
+
+.errorM{
+  position: relative;
+
+  /*margin-left: 500px;*/
+  margin-top: 0px;
+  float:right;
+}
+.myErrorCheck{
+  position: absolute;
+  bottom: -270px;
+}
+.listError
+{
+  width: 100%;
+  color: red;
+}
+
+.flow-text{
+  font-family: openSans;
+}
+
+
+
+
+/**********/
+
+
+
+
+
+/******************/
+
+/*main page footer
+<footer class="myFoot">
+  <div class="Mainwrapper">
+   <nav class="MainfootTab">
+     <div class="MaincopyRight">
+     <p>Copyright (c) 2017 Copyright Holder All Rights Reserved. </p>
+   </div>
+     <div class="Maintest">
+    <ul>
+      <li><a href="#contacts"> Contacts </a></li>
+      <li><a href="#login">Login</a> </li>
+      <li><a href="#Create new account">Create new account</a></li>
+    </ul>
+  </div>
+   </nav>
+  </div>
+</footer>
+*/
+
+
+
+/*
+.wrapper
+{*/
+  /*margin-top: 100px;*/
+  /*
+}
+.footTab{
+  float: right;*/
+/*
+.fooTab ul{
+
+}*/
+/*
+.footTab ul li{*/
+  /*display:inline-block;*/
+  /*
+  margin-left: 20px;
+  list-style: none;
+}*/
